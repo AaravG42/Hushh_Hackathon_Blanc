@@ -20,6 +20,8 @@ class ConsentScope(str, Enum):
     # Custom and extensible scopes
     CUSTOM_TEMPORARY = "custom.temporary"
     CUSTOM_SESSION_WRITE = "custom.session.write"
+    CUSTOM_ETHICAL_VALUES = "custom.ethical.values"
+    CUSTOM_SUPPLY_CHAIN = "custom.supply.chain"
 
     @classmethod
     def list(cls):
